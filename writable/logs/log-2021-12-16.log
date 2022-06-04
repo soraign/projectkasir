@@ -1,0 +1,30 @@
+CRITICAL - 2021-12-16 02:50:48 --> login is not a validation rules group.
+#0 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('login')
+#1 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('login')
+#2 C:\xampp\htdocs\kasir\kasir\app\Controllers\Auth.php(50): CodeIgniter\Validation\Validation->run(Array, 'login')
+#3 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-16 02:50:56 --> login is not a validation rules group.
+#0 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('login')
+#1 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('login')
+#2 C:\xampp\htdocs\kasir\kasir\app\Controllers\Auth.php(50): CodeIgniter\Validation\Validation->run(Array, 'login')
+#3 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-16 02:53:07 --> login is not a validation rules group.
+#0 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('login')
+#1 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('login')
+#2 C:\xampp\htdocs\kasir\kasir\app\Controllers\Auth.php(51): CodeIgniter\Validation\Validation->run(Array, 'login')
+#3 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

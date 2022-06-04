@@ -1,0 +1,148 @@
+CRITICAL - 2021-12-22 00:10:55 --> Invalid file: user/me.php
+#0 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/me.php')
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('user/me', Array, true)
+#2 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(65): view('user/me', Array)
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#8 {main}
+CRITICAL - 2021-12-22 00:15:13 --> Too few arguments to function App\Models\UserModel::menu(), 0 passed in /home/ihsan/Documents/kasir/app/Controllers/Menu.php on line 64 and exactly 1 expected
+#0 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(64): App\Models\UserModel->menu()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#6 {main}
+CRITICAL - 2021-12-22 00:16:07 --> Too few arguments to function App\Models\UserModel::menu(), 0 passed in /home/ihsan/Documents/kasir/app/Controllers/Menu.php on line 64 and exactly 1 expected
+#0 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(64): App\Models\UserModel->menu()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#6 {main}
+CRITICAL - 2021-12-22 00:16:09 --> Too few arguments to function App\Models\UserModel::menu(), 0 passed in /home/ihsan/Documents/kasir/app/Controllers/Menu.php on line 64 and exactly 1 expected
+#0 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(64): App\Models\UserModel->menu()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#6 {main}
+CRITICAL - 2021-12-22 00:16:32 --> syntax error, unexpected token "->"
+#0 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ihsan/Doc...')
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(63): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#8 {main}
+CRITICAL - 2021-12-22 00:16:33 --> syntax error, unexpected token "->"
+#0 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/ihsan/Doc...')
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(63): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#8 {main}
+CRITICAL - 2021-12-22 00:16:39 --> Too few arguments to function App\Models\UserModel::menu(), 0 passed in /home/ihsan/Documents/kasir/app/Controllers/Menu.php on line 64 and exactly 1 expected
+#0 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(64): App\Models\UserModel->menu()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#6 {main}
+CRITICAL - 2021-12-22 00:16:40 --> Too few arguments to function App\Models\UserModel::menu(), 0 passed in /home/ihsan/Documents/kasir/app/Controllers/Menu.php on line 64 and exactly 1 expected
+#0 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(64): App\Models\UserModel->menu()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#6 {main}
+ERROR - 2021-12-22 00:17:22 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-12-22 00:17:22 --> Column 'id' in where clause is ambiguous
+#0 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ihsan/Documents/kasir/app/Models/UserModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(64): App\Models\UserModel->menu('1')
+#6 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#7 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#8 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#11 {main}
+CRITICAL - 2021-12-22 00:19:59 --> Call to undefined function rupiah()
+#0 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('menu/me', Array, true)
+#3 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(65): view('menu/me', Array)
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#6 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#9 {main}
+CRITICAL - 2021-12-22 00:39:07 --> Too few arguments to function App\Controllers\Menu::user(), 0 passed in /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->user()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#5 {main}
+CRITICAL - 2021-12-22 00:39:09 --> Too few arguments to function App\Controllers\Menu::user(), 0 passed in /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->user()
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#5 {main}
+CRITICAL - 2021-12-22 01:00:23 --> Undefined variable $title
+#0 /home/ihsan/Documents/kasir/app/Views/layout.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/ihsan/Doc...', 68)
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ihsan/Doc...')
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render('layout', Array, true)
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('user/login', Array, true)
+#5 /home/ihsan/Documents/kasir/app/Controllers/Auth.php(51): view('user/login')
+#6 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#11 {main}
+CRITICAL - 2021-12-22 01:01:07 --> Undefined variable $title
+#0 /home/ihsan/Documents/kasir/app/Views/layout.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/ihsan/Doc...', 68)
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ihsan/Doc...')
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render('layout', Array, true)
+#4 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('user/register', Array, true)
+#5 /home/ihsan/Documents/kasir/app/Controllers/Auth.php(99): view('user/register')
+#6 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#7 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#11 {main}
+CRITICAL - 2021-12-22 01:04:16 --> Attempt to read property "id" on array
+#0 /home/ihsan/Documents/kasir/app/Views/menu/me.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home/ihsan/Doc...', 42)
+#1 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/ihsan/Doc...')
+#2 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('menu/me', Array, true)
+#4 /home/ihsan/Documents/kasir/app/Controllers/Menu.php(65): view('menu/me', Array)
+#5 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Menu->MyMenu()
+#6 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ihsan/Documents/kasir/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/ihsan/Documents/kasir/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/ihsan/Doc...')
+#10 {main}
+ERROR - 2021-12-22 02:53:49 --> Unknown column 'user_id' in 'field list'
